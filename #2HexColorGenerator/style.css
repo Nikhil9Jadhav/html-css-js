@@ -4,7 +4,7 @@
 }
 
 .container{
-    border:1px solid black;
+    width: 95%;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,20 +13,38 @@
 
 .box1{
     
-    align-items: center;
-    align-self: center;
-    height: 80vh;
+    text-align: center;
 }
 
-.box1 > h1 {
-    color: green;
+.box1 h1 {
     font-size: 2rem;
-    text-align: center;
+    text-transform: uppercase;
+    animation: changecolor 5s infinite alternate;
 }
 
-.box1 > h2{
+.box1 h2{
     margin-top: 20%;
-    color:orange;
-    text-align: center;
+    margin-bottom: 5%;
     font-size: 1.8rem;
+}
+
+@keyframes changecolor {
+    0%{
+        color: indigo;
+    }
+    20%{
+        color: green;
+    }
+    40%{
+        color: yellow;
+    }
+    60%{
+        color: blue;
+    }
+    80%{
+        color: orange;
+    }
+    100%{
+        color: red;
+    }
 }
