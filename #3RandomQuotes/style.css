@@ -1,0 +1,40 @@
+body{
+    background-color: pink;
+}
+.container{
+    width:90%;
+    height: 85vh;
+    display: flex; 
+}
+.quotes-box{
+    /* border: 1px solid black; */
+    width: 900px;
+    height: 450px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 50px;
+    background-color: cyan;
+    border: 10px solid green;
+}
+
+.quotes-box p,.quotes-box h2{
+    font-size: 1.5rem;
+}
+
+@media (max-width:480px){
+    .quotes-box p,.quotes-box h2{
+        font-size: 1rem;
+    }
+}
+.btn-box{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+
