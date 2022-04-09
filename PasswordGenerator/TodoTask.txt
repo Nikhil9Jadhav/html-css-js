@@ -1,0 +1,2 @@
+1.Increase the randomness by adding more eligible characters to the passCharSet.
+2.Need to add responsiveness to the password fields.
