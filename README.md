@@ -16,3 +16,10 @@ Learn about sytling using Js and document object
 Animation in CSS
 Flex and alignment
 ```
+
+### Project 3 Completed RandomQuoteGenerator
+
+```Learn about container management using flex in css.
+Browser responsiveness using media query
+Using dictionary in javascript to store key and value pairs
+```
