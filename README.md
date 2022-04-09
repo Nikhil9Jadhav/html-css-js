@@ -17,9 +17,20 @@ Animation in CSS
 Flex and alignment
 ```
 
+## Date : 8 Apr 2022
+
 ### Project 3 Completed RandomQuoteGenerator
 
 ```Learn about container management using flex in css.
 Browser responsiveness using media query
 Using dictionary in javascript to store key and value pairs
+```
+
+## Date : 10 Apr 2022
+
+### Project 4 Password Generation
+
+```Got a chance to work on plain CSS.
+Struggle to handle responsiveness of the page (task is kept as pending)
+Learn how to select a input field using document.querySelector()
 ```
