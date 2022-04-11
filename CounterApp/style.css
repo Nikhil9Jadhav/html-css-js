@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    background-color: green;
+}
+.container{
+    display:flex;
+    width: 95%;
+    padding: 10px;
+    margin-left: 5px;
+    height: 100vh;
+    justify-content: center;
+    background-color: cyan;
+}
+
+.counter-box{
+    border:1px solid black;
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    box-shadow: 0 10px 10px red;
+    background-color: pink;
+}
+
+.btn{
+    padding:10px;
+    margin:5px;
+    background-color: orange
+}

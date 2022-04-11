@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="counter-box">
+        <h1>Counter</h1>
+        <p
+          id="counter-el"
+          style="font-weight: bold; font-size: 30px; color: yellow"
+        >
+          0
+        </p>
+        <div>
+          <button class="btn" onclick="changeCounter(+1)">Increment</button
+          ><button class="btn" onclick="changeCounter(-1)">Decrement</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

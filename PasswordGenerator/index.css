@@ -1,11 +1,10 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: black
+    background-color: whitesmoke
 }
 
 .container{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +13,8 @@ html, body {
     margin: 40px;
     height: 80vh;
     padding:30px 30px 0px 0px;
-    background: #1F2937
+    background: #1F2937;
+    box-shadow: 30px 40px 20px rgba(0,0,0,0.19),0 6px 6px rgba(0,0,0,0.23);
 }
 
 .main-section{
