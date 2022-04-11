@@ -34,3 +34,12 @@ Using dictionary in javascript to store key and value pairs
 Struggle to handle responsiveness of the page (task is kept as pending)
 Learn how to select a input field using document.querySelector()
 ```
+
+## Date : 11 Apr 2022
+
+### Project 5 Counter App
+
+```
+    Simple counter app
+    Did some CSS practice with this project.
+```
