@@ -43,3 +43,15 @@ Learn how to select a input field using document.querySelector()
     Simple counter app
     Did some CSS practice with this project.
 ```
+
+## Date : 12 Apr 2022
+
+### Project 6 Invoice Creator
+
+```
+    This is little bigger in scope and getting to learn css
+    in depth and
+    Also in js some new things like localstorage.
+    This project main part is done now improvements
+    from design perspective and some js logic is pending"
+```
