@@ -33,9 +33,10 @@ ul{
     list-style: none;
 }
 
-.total-box{
-    /* border: 1px solid black; */
-}
+/* .total-box{
+    border: 1px solid black;
+} 
+*/
 
 .col-1{
     /* border: 1px solid black; */
@@ -63,6 +64,6 @@ ul{
     1. Giving Color logic using Figma file.
     2. Scrolling and Responsiveness need to be added somehow
     We can refer other css code logic for this detailing and
-    improve on the project
+    improve on the
 
 */
