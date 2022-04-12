@@ -1,0 +1,53 @@
+.container{
+    border: 1px solid black;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+.card{
+    position: relative;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    justify-self: center;
+    height: 80%;
+    width: 40%;
+    margin:auto;
+}
+
+.invoice-list{
+    align-self: flex-start;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.key{
+    position: relative;
+    right: 12rem;
+    font-size: 1rem;
+    color: green;
+}
+
+.value{
+    position: relative;
+    left: 12rem;
+    font-size: 1rem;
+    color: red;
+}
+
+.item-key{
+    position: relative;
+    right: 12rem;
+    font-size: 1rem;
+    color: green;
+}
+
+.item-value{
+    position: absolute;
+    left: 31rem;
+    font-size: 1rem;
+    color: red;
+}
