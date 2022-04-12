@@ -18,27 +18,25 @@
           <button id="weeds">Pull Weeds</button>
         </div>
         <div class="invoice">
-          <ul class="invoice-list">
-            <li>
-              <span class="key">Task</span>
-              <span class="value">Total</span>
-            </li>
-            <li>
-              <span class="item-key">Mov Lawn</span>
-              <span class="item-value">Price</span>
-            </li>
-            <li>
-              <span class="item-key">Wash Car</span>
-              <span class="item-value">Price</span>
-            </li>
-            <li>
-              <span class="item-key">Pull Weeds</span>
-              <span class="item-value">Price</span>
-            </li>
-          </ul>
+          <div class="col-1">
+            <ul id="item-list">
+              <li style="font-size: 30px; font-weight: 30px">Task</li>
+            </ul>
+          </div>
+          <div class="col-2">
+            <ul id="item-cost">
+              <li style="font-size: 30px; font-weight: 30px">Total</li>
+            </ul>
+          </div>
         </div>
+        <div class="total-box">
+          <h1>The total will come here</h1>
+        </div>
+        <button class="submit-btn">Send invoice</button>
       </div>
     </div>
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- Need to improve the class names otherwise html is good -->

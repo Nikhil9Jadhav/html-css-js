@@ -13,41 +13,56 @@
     justify-content: start;
     align-items: center;
     justify-self: center;
-    height: 80%;
+    height: auto;
     width: 40%;
     margin:auto;
 }
 
-.invoice-list{
-    align-self: flex-start;
-    align-items: flex-start;
+.invoice{
+    display: flex;
+    /* border: 1px solid black; */
+    margin:30px 10px 0px 10px;
+    margin-top: 30px;
+    padding:70px;
+    height: auto;
+    align-self: stretch;
+    padding-bottom: 0px;
+}
+
+ul{
     list-style: none;
 }
 
-.key{
-    position: relative;
-    right: 12rem;
-    font-size: 1rem;
-    color: green;
+.total-box{
+    /* border: 1px solid black; */
 }
 
-.value{
+.col-1{
+    /* border: 1px solid black; */
     position: relative;
-    left: 12rem;
-    font-size: 1rem;
-    color: red;
+    right:50px;
+    overflow: auto;
+    margin-right:10px;
 }
 
-.item-key{
+.col-2{
+    /* border: 1px solid black; */
     position: relative;
-    right: 12rem;
-    font-size: 1rem;
-    color: green;
+    left:15rem;
+    /* float: left; */
+    overflow: auto;
 }
 
-.item-value{
-    position: absolute;
-    left: 31rem;
-    font-size: 1rem;
-    color: red;
+.submit-btn{
+    padding : 15px;
+    width: 70%;
 }
+
+/* To do 
+
+    1. Giving Color logic using Figma file.
+    2. Scrolling and Responsiveness need to be added somehow
+    We can refer other css code logic for this detailing and
+    improve on the project
+
+*/
