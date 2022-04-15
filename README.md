@@ -55,3 +55,28 @@ Learn how to select a input field using document.querySelector()
     This project main part is done now improvements
     from design perspective and some js logic is pending"
 ```
+
+## Date : 15 Apr 2022
+
+### Project 7 CorousalEffect
+
+```
+This code logic is similar to counter app.
+Wrote logic to give a courasal effect to display all the reviews
+cards by using forward and backward arrow.
+Also added a surprise me button which displays a random review card
+Randomness was added using Math.random() method.
+```
+
+## Date 15 Apr 2022
+
+### Project 8 Navbar Toggle.
+
+```
+In this project I learned how fetch classes of the elements
+using classList method which returs list of all the classes present on that element.
+Using this we can toggle (add/remove) classNames from an element to give different effects to that particular element.
+In this project we hide and unhide the list on the navbar
+You can use if else for logic or direct a toggle method which takes
+a class as input (which needed to be added on removed on button event.)
+```
