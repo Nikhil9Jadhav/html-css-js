@@ -47,6 +47,21 @@ body{
 }
 
 .cover-img{
-    padding: 20px 10px 0px 10px;
-    width: 95%;
+    padding: 20px 0px 0px 10px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.timeline{
+    width: 60%;
+}
+
+.timeline > h3{
+    text-align: center;
+    padding: 30px;
+}
+
+.timeline > p{
+    padding: 30px;
 }
