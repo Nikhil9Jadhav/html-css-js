@@ -1,25 +1,3 @@
-/* 
-
-
-
-.header{
-    border: 1px solid black;
-    padding: 10px;
-    text-align: center;
-}
-
-#img-div{
-    border: 1px solid black;
-
-}
-
-.cover-img{
-    border: 1px solid black;
-    padding: 20px;
-    width: 70%;
-    align-self: center;
-} 
-*/
 body{
     margin: 0px;
 }
@@ -48,9 +26,7 @@ body{
 
 .cover-img{
     padding: 20px 0px 0px 10px;
-    display: block;
-    max-width: 100%;
-    height: auto;
+    width: 90%;
 }
 
 .timeline{
@@ -64,4 +40,20 @@ body{
 
 .timeline > p{
     padding: 30px;
+}
+
+.qoute-container{
+    display: flex;
+    padding: 30px;
+    width: auto;
+    color: blue;
+    font-size: 20px;
+    font-weight: 5;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.qoute-btn{
+    padding: 5px;
+    margin: 20px;
 }
