@@ -80,3 +80,12 @@ In this project we hide and unhide the list on the navbar
 You can use if else for logic or direct a toggle method which takes
 a class as input (which needed to be added on removed on button event.)
 ```
+
+## Date 24 Apr 2022
+
+```
+Added FAQLogic project.
+Learn how to traverse the dom top to bottom and vice versa.
+Learn how to add event listener on multiple buttons (i.e by looping eace button apply the eventListener)
+Learn toggle logic to show FAQ and hide the text using a button click event.
+```
