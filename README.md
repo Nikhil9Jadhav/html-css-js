@@ -83,6 +83,8 @@ a class as input (which needed to be added on removed on button event.)
 
 ## Date 24 Apr 2022
 
+### Project 9 FAQ Toggle.
+
 ```
 Added FAQLogic project.
 Learn how to traverse the dom top to bottom and vice versa.
